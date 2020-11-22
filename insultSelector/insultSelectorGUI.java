@@ -23,7 +23,9 @@ public class insultSelectorGUI extends javax.swing.JFrame {
     public insultSelectorGUI() {
         initComponents();
     }
-
+    
+     UseInsultGUI useInsultGUI = new UseInsultGUI();
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -86,9 +88,8 @@ public class insultSelectorGUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
    
-    /* THIS IS MY PROBLEM AREA */
     private void YesPressed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_YesPressed
-       UseInsult.takeQuiz(qAnda);
+        useInsultGUI.setVisible(true);
     }//GEN-LAST:event_YesPressed
 
   
