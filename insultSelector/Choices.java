@@ -10,9 +10,9 @@ public class Choices {
 
 	public static void pickIntro(double average) {
 		if (1 >= average && average <= 1.75) 
-			System.out.println( "They sound horrible.  Use this to knock them down a peg or two!");
+			System.out.println("They sound horrible.  Use this to knock them down a peg or two!");
 		else if (1.76 >= average && average <= 2.25)
-			System.out.println("Egads! Throw this wit thier way and they won't know what hit them!");
+			System.out.println("Egads! Throw this wit their way and they won't know what hit them!");
 		else
 			System.out.println("A definate scoundrel!  Make them cry with this one!");
 	
